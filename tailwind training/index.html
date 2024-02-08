@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Training</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" /></head>
+<body class="min-h-screen bg-black">
+    <!-- !HEADER! -->
+<header class="bg-blue-800 text-white top-0 sticky z-10">
+
+    <section class="w-5/6 mx-auto flex justify-between items-center p-10">
+        <h1 class="text-2xl font-bold"><a href="#hero" class="flex gap-3 w-10"><img src="./img/logo.png" alt="">AUP Tech</a></h1>
+        <div>
+            <button class="text-3xl sm:hidden text-white w-8">&#9776</button>
+            <nav class="hidden sm:block text-lg space-x-10">
+                <a href="#section1" class="hover:text-[#F66F4D] transition-duration-600">Section 1</a>
+                <a href="#section2" class="hover:text-[#F66F4D] transition-duration-600">Section 2</a>
+                <a href="#section3" class="hover:text-[#F66F4D] transition-duration-600">Section 3</a>
+            </nav>
+        </div>
+    </section>
+
+</header>
+<!-- !MAIN! -->
+<main class="wi5/6 mx-auto my-24">
+    <!-- section1 -->
+    <section id="section1" class="flex sm:flex-row flex-col-reverse justify-center gap-20">
+        <div class="flex flex-col">
+            <h1 class="font-semi-bold text-5xl text-white leading-10">Let's Learn <br><span class="text-blue-800 font-extrabold bg-gradient-to-r from-blue-400 bg-gradient-blue-600 text-transparent bg-clip-text">Coding <br></span>Together</h1>
+            <p class="text-indigo-400 mt-6">The Reason Why this Course Exists <br> For You To Understand Coding</p>
+        </div>
+        <img src="./img/wallhaven.png" class="w-1/2" alt="">
+    </section>
+    <!-- section 2 -->
+<section class="flex flex-col items-center justify-center mt-8" id="section2">
+    <h1 class="text-white text-4xl font-bold mt-8 my-20">LANGUAGES</h1>
+    <div class="flex flex-col gap-y-6 sm:flex-row text-white text-center items-center gap-x-20">
+        <div class="flex flex-col items-center gap-y-4 card-gradient px-12 py-6">
+            <img src="./img/js.png" class="w-96" alt="">
+            <p class="text-blue-300">JavaScript</p>
+        </div>
+        <div class="flex flex-col items-center gap-y-4 card-gradient px-12 py-6">
+            <img src="./img/py.png" class="w-96" alt="">
+            <p class="text-blue-300">Python</p>
+        </div>
+    </div>
+</section>
+<!-- section 3 -->
+<section class="flex flex-col items-center justify-center mt-8" id="section3">
+    <h1 class="text-white text-4xl font-bold mt-8 my-20">FRAMEWORKS</h1>
+    <div class="flex flex-col gap-y-6 sm:flex-row text-white text-center items-center gap-x-20">
+        <div class="flex flex-col items-center gap-y-4 card-gradient px-12 py-6">
+            <img src="./img/react.png" class="w-96" alt="">
+            <p class="text-blue-300">React JS</p>
+        </div>
+        <div class="flex flex-col items-center gap-y-4 card-gradient px-12 py-6">
+            <img src="./img/node.png" class="w-96" alt="">
+            <p class="text-blue-300">Node JS</p>
+        </div>
+        <div class="flex flex-col items-center gap-y-4 card-gradient px-12 py-6">
+            <img src="./img/django.png" class="w-96" alt="">
+            <p class="text-blue-300">Django</p>
+        </div>
+    </div>
+</section>
+</main>
+<!-- !FOOTER! -->
+<footer class="bg-blue-800 text-white top-0 sticky z-10">
+    <div class="flex items-center justify-center py-6 gap-5">
+            <a href="https://github.com/AhmetUtkuPelen" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ahmet-utku-pelen-4941b820b/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/rngd_aup/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+    <div class="flex items-center justify-center py-6 gap-5">
+        <p class="text-orange-400">CONTACT</p>
+    </div>
+</footer>
+</body>
+</html>
